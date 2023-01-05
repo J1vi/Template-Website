@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Template Website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="/index.html"><img src="images/logo.webp"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">GAMES</a></li>
+                    <li><a href="">COMICS</a></li>
+                    <li><a href="">MOVIES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">footer</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Best Franchise</h1>
+            <p>The worlds biggest and best franchise. You get the best movies, comics, shows, and action figures.<br> Today, we don't fight for one life, we fight for all.</p>
+            <a href="https://www.marvel.com/" class="hero-btn">Our Website</a>
+        </div>
+
+    </section>
+
+<section class="GAMES">
+    <h1>GAMES</h1>
+    <p>These are some of the best selling Marvel Games</p>
+
+    <div class="row">
+        <div class="GAMES-col">
+            <h3>Spider-Man Miles Morales</h3>
+            <p>Miles was able to save his father, but during the conflict, police accidentally shot his mother, Rio. As she died, Miles revealed to his mother that he was in fact Spider-Man. She told him she was proud of him, but begged him never to tell his father. Racked with guilt, Miles gave up the mantle soon after.</p>
+        </div>
+        <div class="GAMES-col">
+            <h3>Marvels Avengers</h3>
+            <p>Marvel’s Avengers is all about playing your favorite Super Heroes and feeling like their powers are in your hands. Soar through the air as Iron Man, vanish in the blink of an eye as Black Widow, and (of course) Hulk SMASH! Each Avenger comes to life with an expansive, unique kit inspired directly by Marvel lore that embodies their heritage in and out of battle. Explore vast biomes with hidden secrets, build your team your way, and come face-to-face with iconic Villains. No matter how you play, you’ll enjoy the action-packed, iconic Marvel Super Hero gameplay you can’t find anywhere else.</p>
+        </div>
+        <div class="GAMES-col">
+            <h3>Iron Man VR</h3>
+            <p>With a fresh story, AAA quality gameplay, a solid amount of gameplay, and now complete freedom of movement in the controls, Marvel's Iron Man VR is absolutely phenomenal.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="COMICS">
+    <h1>COMICS</h1>
+    <p>These are not only some of the best selling comics in Marvel, but also of all time.</p>
+
+    <div class="row">
+        <div class="COMICS-col">
+            <img src="images/XMEN.jpeg">
+            <div class="layer">
+                <h3>X-MEN</h3>
+            </div>
+        </div>
+        <div class="COMICS-col">
+            <img src="images/Spiderman.jpeg">
+            <div class="layer">
+                <h3>THE AMAZING SPIDER-MAN</h3>
+            </div>
+        </div>
+        <div class="COMICS-col">
+            <img src="images/Avengers.jpg_large">
+            <div class="layer">
+                <h3>EARTHS MIGHTIEST HEROES: THE AVENGERS</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="MOVIES">
+    <h1>MOVIES</h1>
+    <p>Marvel is known for the amazing movies it put out. Here are some of the best movies in Marvel history.</p>
+
+    <div class="row">
+        <div class="MOVIES-col">
+            <img src="/images/Endgame.jpeg">
+            <h3>END GAME</h3>
+            <p>Avengers Endgame was a sequel of Avengers Infinity war where the avengers are on a mission to stop thanos from using the infinity stones, which would ultimately erase existence.</p>
+        </div>
+        <div class="MOVIES-col">
+            <img src="/images/CivilWar.jpg">
+            <h3>CIVIL WAR</h3>
+            <p>Avengers Civil War is a movie about a war that went on between members of the avengers.</p>
+        </div>
+        <div class="MOVIES-col">
+            <img src="/images/NoWayHome.jpg">
+            <h3>NO WAY HOME</h3>
+            <p>Spider-Man No Way Home is a sequel of Spider-Man Homecoming, and Spider-Man Far From Home. The movie connects multiple Spider-Men from many different universes together all with the goal to protect the multiverse.</p>
+        </div>
+    </div>
+
+<section class="CONTACTS">
+    <h1>Marvel, Where We Fight For Millions</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>_________________________________________</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-discord"></i>
+    </div>
+    <p>Made By J1vi_K on Instagram</p>
+</section>
+
+</section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
